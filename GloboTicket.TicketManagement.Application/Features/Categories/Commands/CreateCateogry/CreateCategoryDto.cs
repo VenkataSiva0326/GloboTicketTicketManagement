@@ -9,6 +9,6 @@
 
         public string user_name  { get; set; }
 
-        public int user_password { get; set; }
+        public string user_password { get; set; }
     }
 }
