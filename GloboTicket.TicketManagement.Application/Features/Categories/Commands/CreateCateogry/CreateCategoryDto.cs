@@ -4,5 +4,11 @@
     {
         public Guid CategoryId { get; set; }
         public string Name { get; set; } = string.Empty;
+
+        public string access_token { get; set; }
+
+        public string user_name  { get; set; }
+
+        public string user_password { get; set; }
     }
 }
